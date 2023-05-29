@@ -1,8 +1,7 @@
 package com.mballem.curso.security.web.controller;
 
-import com.mballem.curso.security.domain.Medico;
-import com.mballem.curso.security.domain.Usuario;
-import com.mballem.curso.security.dto.MedicoDto;
+import com.mballem.curso.security.models.Medico;
+import com.mballem.curso.security.models.Usuario;
 import com.mballem.curso.security.service.MedicoService;
 import com.mballem.curso.security.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;

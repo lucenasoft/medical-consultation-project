@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.mballem.curso.security.datatables.Datatables;
 import com.mballem.curso.security.datatables.DatatablesColunas;
-import com.mballem.curso.security.domain.Especialidade;
+import com.mballem.curso.security.models.Especialidade;
 import com.mballem.curso.security.repository.EspecialidadeRepository;
 
 @Service

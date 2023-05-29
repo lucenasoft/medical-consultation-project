@@ -1,7 +1,7 @@
 package com.mballem.curso.security.web.controller;
 
-import com.mballem.curso.security.domain.Paciente;
-import com.mballem.curso.security.domain.Usuario;
+import com.mballem.curso.security.models.Paciente;
+import com.mballem.curso.security.models.Usuario;
 import com.mballem.curso.security.service.PacienteService;
 import com.mballem.curso.security.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;

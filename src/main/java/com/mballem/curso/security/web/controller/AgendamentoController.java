@@ -1,11 +1,10 @@
 package com.mballem.curso.security.web.controller;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-import com.mballem.curso.security.domain.*;
+import com.mballem.curso.security.models.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.format.annotation.DateTimeFormat.ISO;

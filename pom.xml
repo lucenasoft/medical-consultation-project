@@ -8,11 +8,11 @@
 		<version>3.0.0</version>
 		<relativePath/> <!-- lookup parent from repository --> 
 	</parent>
-	<groupId>com.mballem.curso.security</groupId>
-	<artifactId>demo-security-sb3</artifactId>
+	<groupId>br.com.lucenasoft</groupId>
+	<artifactId>medical-consultation-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-security-sb3</name>
-	<description>Demo project for Spring Security</description>
+	<name>medical-consultation-project</name>
+	<description>Projeto de agendamento de consultas medicas</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

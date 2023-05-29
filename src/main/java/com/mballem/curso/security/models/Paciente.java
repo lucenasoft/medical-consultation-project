@@ -1,4 +1,4 @@
-package com.mballem.curso.security.domain;
+package com.mballem.curso.security.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.format.annotation.DateTimeFormat;

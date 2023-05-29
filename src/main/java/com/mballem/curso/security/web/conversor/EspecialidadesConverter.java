@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import com.mballem.curso.security.domain.Especialidade;
+import com.mballem.curso.security.models.Especialidade;
 import com.mballem.curso.security.service.EspecialidadeService;
 
 @Component

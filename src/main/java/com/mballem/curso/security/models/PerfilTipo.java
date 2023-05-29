@@ -1,4 +1,4 @@
-package com.mballem.curso.security.domain;
+package com.mballem.curso.security.models;
 
 public enum PerfilTipo {
 	ADMIN(1, "ADMIN"), MEDICO(2, "MEDICO"), PACIENTE(3, "PACIENTE");

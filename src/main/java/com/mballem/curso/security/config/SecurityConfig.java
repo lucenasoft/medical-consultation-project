@@ -17,7 +17,7 @@ import org.springframework.security.web.authentication.session.RegisterSessionAu
 import org.springframework.security.web.authentication.session.SessionAuthenticationStrategy;
 import org.springframework.security.web.session.HttpSessionEventPublisher;
 
-import com.mballem.curso.security.domain.PerfilTipo;
+import com.mballem.curso.security.models.PerfilTipo;
 import com.mballem.curso.security.service.UsuarioService;
 
 @Configuration

@@ -22,9 +22,9 @@ import org.springframework.util.Base64Utils;
 
 import com.mballem.curso.security.datatables.Datatables;
 import com.mballem.curso.security.datatables.DatatablesColunas;
-import com.mballem.curso.security.domain.Perfil;
-import com.mballem.curso.security.domain.PerfilTipo;
-import com.mballem.curso.security.domain.Usuario;
+import com.mballem.curso.security.models.Perfil;
+import com.mballem.curso.security.models.PerfilTipo;
+import com.mballem.curso.security.models.Usuario;
 import com.mballem.curso.security.exception.AcessoNegadoException;
 import com.mballem.curso.security.repository.UsuarioRepository;
 

@@ -13,8 +13,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.mballem.curso.security.datatables.Datatables;
 import com.mballem.curso.security.datatables.DatatablesColunas;
-import com.mballem.curso.security.domain.Agendamento;
-import com.mballem.curso.security.domain.Horario;
+import com.mballem.curso.security.models.Agendamento;
+import com.mballem.curso.security.models.Horario;
 import com.mballem.curso.security.exception.AcessoNegadoException;
 import com.mballem.curso.security.repository.AgendamentoRepository;
 import com.mballem.curso.security.repository.projection.HistoricoPaciente;

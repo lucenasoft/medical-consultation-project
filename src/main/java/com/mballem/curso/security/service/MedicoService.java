@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mballem.curso.security.domain.Medico;
+import com.mballem.curso.security.models.Medico;
 import com.mballem.curso.security.repository.MedicoRepository;
 
 @Service

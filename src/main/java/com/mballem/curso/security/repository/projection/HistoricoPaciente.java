@@ -1,8 +1,8 @@
 package com.mballem.curso.security.repository.projection;
 
-import com.mballem.curso.security.domain.Especialidade;
-import com.mballem.curso.security.domain.Medico;
-import com.mballem.curso.security.domain.Paciente;
+import com.mballem.curso.security.models.Especialidade;
+import com.mballem.curso.security.models.Medico;
+import com.mballem.curso.security.models.Paciente;
 
 public interface HistoricoPaciente {
 

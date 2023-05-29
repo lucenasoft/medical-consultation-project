@@ -9,8 +9,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.mballem.curso.security.domain.Agendamento;
-import com.mballem.curso.security.domain.Horario;
+import com.mballem.curso.security.models.Agendamento;
+import com.mballem.curso.security.models.Horario;
 import com.mballem.curso.security.repository.projection.HistoricoPaciente;
 
 public interface AgendamentoRepository extends JpaRepository<Agendamento, Long>{

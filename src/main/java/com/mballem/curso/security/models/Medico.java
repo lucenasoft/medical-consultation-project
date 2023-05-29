@@ -1,4 +1,4 @@
-package com.mballem.curso.security.domain;
+package com.mballem.curso.security.models;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -1,12 +1,11 @@
 package com.mballem.curso.security.web.controller;
 
-import com.mballem.curso.security.domain.Medico;
-import com.mballem.curso.security.domain.Perfil;
-import com.mballem.curso.security.domain.PerfilTipo;
-import com.mballem.curso.security.domain.Usuario;
+import com.mballem.curso.security.models.Medico;
+import com.mballem.curso.security.models.Perfil;
+import com.mballem.curso.security.models.PerfilTipo;
+import com.mballem.curso.security.models.Usuario;
 import com.mballem.curso.security.service.MedicoService;
 import com.mballem.curso.security.service.UsuarioService;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +21,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import jakarta.mail.MessagingException;
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 @Controller
@@ -60,7 +60,7 @@ public class UsuarioController {
     	List<Perfil> perfis = usuario.getPerfis();
     	if (perfis.size() > 2 || 
     			perfis.containsAll(Arrays.asList(new Perfil(1L), new Perfil(3L))) ||
-    			perfis.containsAll(Arrays.asList(new Perfil(2L), new Perfil(3L)))) {
+    			new HashSet<>(perfis).containsAll(Arrays.asList(new Perfil(2L), new Perfil(3L)))) {
     		attr.addFlashAttribute("falha", "Paciente não pode ser Admin e/ou Médico.");
     		attr.addFlashAttribute("usuario", usuario);
     	} else {

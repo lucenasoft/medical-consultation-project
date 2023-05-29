@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import com.mballem.curso.security.domain.Perfil;
+import com.mballem.curso.security.models.Perfil;
 
 @Component
 public class PerfisConverter implements Converter<String[], List<Perfil>>{

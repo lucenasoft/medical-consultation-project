@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.mballem.curso.security.domain.Especialidade;
+import com.mballem.curso.security.models.Especialidade;
 import com.mballem.curso.security.service.EspecialidadeService;
 
 @Controller

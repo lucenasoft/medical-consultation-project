@@ -1,4 +1,4 @@
-package com.mballem.curso.security.domain;
+package com.mballem.curso.security.models;
 
 import java.util.ArrayList;
 import java.util.List;
